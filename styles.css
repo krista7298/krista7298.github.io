@@ -1,0 +1,72 @@
+
+/* Background and Font */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #eeeeee, #d4d4d4);
+    margin: 0;
+}
+
+
+/* Header */
+
+header {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 25px;
+    background-color: #2e7d32;
+    color: white;
+}
+
+
+/* Navigation Menu */
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+/* Hover effect */
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+}
+
+
+/* Main Sections */
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border: 2px solid #ddd;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    padding: 15px;
+    background-color: #2e7d32;
+    color: white;
+}
