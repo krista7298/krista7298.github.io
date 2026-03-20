@@ -70,3 +70,51 @@ footer {
     background-color: #2e7d32;
     color: white;
 }
+/* =====================================
+   NEW FEATURES FOR THIS ASSIGNMENT
+   ===================================== */
+
+/* Navigation transition */
+nav ul li a {
+    transition: background-color 0.3s ease;
+}
+
+/* Section hover zoom */
+section {
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Table header color (match your green theme) */
+thead {
+    background-color: #a5d6a7;
+}
+
+/* Table footer */
+tfoot {
+    background-color: #eeeeee;
+    font-style: italic;
+}
