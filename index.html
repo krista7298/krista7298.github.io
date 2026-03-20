@@ -23,9 +23,9 @@
     <!-- Navigation menu -->
     <nav>
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -34,7 +34,7 @@
 <main>
 
     <!-- About section -->
-    <section>
+    <section id="about">
         <header>
             <h2>About</h2>
         </header>
@@ -42,15 +42,51 @@
     </section>
 
     <!-- Projects section -->
-    <section>
+    <section id="projects">
         <header>
             <h2>Projects</h2>
         </header>
-        <p>This section will showcase projects I complete during my program.</p>
+
+        <table>
+            <caption>Sample Projects</caption>
+
+            <colgroup>
+                <col style="background-color: #c8e6c9;">
+                <col>
+                <col style="background-color: #c8e6c9;">
+            </colgroup>
+
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Image Placeholder</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Portfolio Website</td>
+                    <td>A personal website that introduces me and my coursework.</td>
+                    <td>Coming Soon</td>
+                </tr>
+                <tr>
+                    <td>Web Design Projects</td>
+                    <td>A collection of assignments and projects from my course.</td>
+                    <td>Coming Soon</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">More projects will be added soon.</td>
+                </tr>
+            </tfoot>
+        </table>
     </section>
 
     <!-- Contact section -->
-    <section>
+    <section id="contact">
         <header>
             <h2>Contact</h2>
         </header>
