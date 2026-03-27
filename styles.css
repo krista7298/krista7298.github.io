@@ -118,3 +118,92 @@ tfoot {
     background-color: #eeeeee;
     font-style: italic;
 }
+/* =====================================
+   RESPONSIVE CONTACT FORM ASSIGNMENT
+   ===================================== */
+
+/* Main content flexbox */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Navigation flexbox */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Contact form flexbox */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Form field styling */
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover and focus effects */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #2e7d32;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #4CAF50;
+}
+
+/* Responsive media queries */
+@media screen and (max-width: 599px) {
+    body {
+        min-width: 320px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    body {
+        min-width: 600px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        min-width: 900px;
+    }
+}
