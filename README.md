@@ -21,7 +21,6 @@ This project is a responsive blog website created for my Web Design course. The 
 https://krista7298.github.io/
 
 ## Local Hosting Screenshot
-(Add your screenshot here)
-
+![Local Site Screenshot](local%20host%20my%20website.png)
 ## Author
 Krista Agustin
