@@ -1,11 +1,27 @@
 # Web Design Course Project
 
-This repository contains my website for my Web Design course.
+## Description
+This project is a responsive blog website created for my Web Design course. The website includes a navigation menu, blog content, and a contact form. It was built using HTML5 and CSS3 and designed to adapt to different screen sizes.
 
-The website was created using HTML5 and is published using GitHub Pages.
+## Features
+- Responsive layout using Flexbox
+- Navigation menu with hover effects
+- Blog section with multiple articles
+- Contact form with required input fields
+- CSS animations and transitions
+- Mobile, tablet, and desktop support
 
-Live Site:
+## Technologies Used
+- HTML5
+- CSS3
+- GitHub Pages (live hosting)
+- XAMPP (local hosting)
+
+## Live Website
 https://krista7298.github.io/
 
-Author:
+## Local Hosting Screenshot
+(Add your screenshot here)
+
+## Author
 Krista Agustin
